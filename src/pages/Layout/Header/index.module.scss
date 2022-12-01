@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #1890FF;
+
+    :global {
+        .title {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .user {
+            color: #fff;
+
+            .logout-btn {
+                color: #1890FF;
+            }
+        }
+    }
+}

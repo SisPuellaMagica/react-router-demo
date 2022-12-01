@@ -1,0 +1,30 @@
+.root {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 200px;
+    background-color: rgba(24, 144, 255, 0.8);
+
+    :global {
+        .ant-menu-item {
+            margin: 0;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .ant-menu-item-selected {
+            background-color: #fff;
+            color: #1890FF;
+
+            a {
+                color: #1890FF;
+            }
+        }
+    }
+}
