@@ -1,0 +1,34 @@
+.root {
+    :global {
+        .user {
+            width: 100%;
+            height: 200px;
+            background-color: #1677FF;
+
+            .base {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+                width: 100%;
+                height: 140px;
+                padding: 40px 16px;
+                color: #fff;
+
+                .avatar {
+                    --size: 48px;
+                    --border-radius: 50%;
+                }
+
+                .name {
+                    width: 200px;
+                    font-size: 22px;
+                }
+
+                .edit {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
